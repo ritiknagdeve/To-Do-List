@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Permanent+Marker&family=Yanone+Kaffeesatz:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>TO-DO_LIST</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="intro col-12">
+				<h1> <u>TO-DO-LIST <i class="fa fa-pencil-square-o " aria-hidden="true"></i></u> </h1>
+				<div>
+					<div class="border1"></div>
+					<div c>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="helpText col-12">
+				<p id="first">Enter text into the input field to add items to your list.</p>
+				<p id="second">Click the item to mark it as complete.</p>
+				<p id="third">Click the "X" to remove the item from your list.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				<input id="userInput" type="text" placeholder="Add New-item" maxlength="27">
+				<button id="enter"><i class="fa fa-plus-square-o" aria-hidden="true"></i></button>
+			</div>
+		</div>
+
+		<!-- Empty List -->
+		<div class="row">
+			<div class="listItems col-12 todo">
+				<ul class="col-12 offset-0 col-sm-8 offset-sm-2">
+				</ul>
+			</div>
+		</div>
+        
+    </div>
+    <div class="footer">
+        <footer> <small>&copy; Copyright 2020. ritiknagdeve.</small> </footer>
+    </div>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
+</html>

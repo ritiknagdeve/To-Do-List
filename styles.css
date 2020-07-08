@@ -1,0 +1,165 @@
+
+body {
+	background: linear-gradient(-45deg, #36dbdb, #c78ea4, #6ea3a7, #2b6696);
+	background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    min-height:100%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.intro {
+	margin: 30px 0px;
+	font-weight: bold;
+}
+
+h1 {
+	color: #323232;
+	text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4.5rem;
+    
+    
+}
+h1:hover{
+    color: rgb(0, 0, 0)
+}
+
+
+p {
+	font-weight: 600;
+}
+
+#first {
+	margin-top: 10px;
+    color: #353432;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#second {
+	color: #353432;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#third {
+	color: #353432;
+    margin-bottom: 30px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+#enter {
+	border: none;
+	padding: 5px 15px;
+	border-radius: 10px;
+	color: #1a1b1a;
+	background-color: #94ff74;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+	font-weight: normal;
+}
+
+#enter:hover{
+	background-color: #5bc42b;
+	color: #d88d8d;
+}
+
+ul {
+	text-align: left;
+    margin-top: 20px;
+    
+}
+
+
+li {
+    list-style: none;
+    font-family: 'Architects Daughter', cursive;
+	padding: 10px 20px;
+    color: #000;
+    font-size: 1rem;
+    text-align: left;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #025f70;
+	border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+	background: #4EB9CD;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+li:hover {
+	background: #76CFE0;
+}
+
+li > button {
+    font-weight: normal;
+    font-size: 1rem;
+	background: none;
+	border: none;
+	float: right;
+	color: #01363f;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    
+}
+
+input {
+	border-radius: 20px;
+	min-width: 40%;
+	padding: 15px;
+	border: 0px;
+}
+
+.done {
+	background: #3ae05e !important;
+    color: #ec3535;
+    text-decoration: line-through black;
+
+    
+}
+
+.delete {
+	display: none;
+}
+.footer{
+    position: sticky;
+    min-height: 100%;
+    margin-top: 12rem;
+    background-color: white;
+    padding: 9px;
+
+    opacity:0.3;
+    font-weight: 10;
+    color: #000;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+@media(max-width: 568px){
+	h1{
+		font-size: 2rem;
+	}
+	
+}
