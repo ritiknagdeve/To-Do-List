@@ -1,6 +1,8 @@
 # To-Do-List
 A simple to-do-list web app using HTML, CSS (Gradient styling), JavaScript(DOM manipulation).
-
+# How to run
++ clone the repository:
++ run **index.html** in any browser.
 # Screenshots
 + **Main page (before adding items)** ->
 
